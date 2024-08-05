@@ -16,8 +16,36 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  margin-bottom:133px;
+  margin-top:133px;
 }
-
+.content {
+  justify-self: center;
+  display: flex;
+  align-items: end;
+  width:1140px;
+}
+.result {
+  margin-right:30px;
+}
+.result__video-container {
+  margin-bottom:16px;
+}
+.search-form {
+  display:flex;
+  justify-content:space-between;
+}
+.content__list {
+  height:298px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+h1.title {
+  margin-bottom:26px;
+}
+.content__details {
+  width:399px;
+}
 h1,
 h2,
 h3,
