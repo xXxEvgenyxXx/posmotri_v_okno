@@ -25,7 +25,7 @@ html {
   align-items: end;
   width:1140px;
   margin-top:133px;
-  margin-bottom:133px;
+  padding-bottom:133px;
 }
 .result {
   margin-right:30px;
