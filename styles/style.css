@@ -86,7 +86,7 @@ title {
   background-color: #545050;
 }
 .content__card-link_current:focus, .content__card-link:focus {
-  border:1px solid white;
+  border: 1px solid white;
 }
 .title {
   font-family: 'Oswald',sans-serif;
@@ -108,7 +108,7 @@ title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   margin-bottom: 6px;
 }
 .content__video-card-description {
@@ -128,7 +128,7 @@ title {
   line-height: 21.6px;
 }
 .search-form__textfield:focus {
-  outline:1px solid white;
+  outline: 1px solid white;
   outline-offset: 1px;
 }
 .search-form__textfield::placeholder {
