@@ -83,7 +83,7 @@ html {
   background-color: #545050;
 }
 .content__card-link_current, .content__card-link {
-  border:1px solid transparent;
+  border: 1px solid transparent;
 }
 .content__card-link_current:focus, .content__card-link:focus {
   border: 1px solid white;
