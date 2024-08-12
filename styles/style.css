@@ -64,9 +64,6 @@ html {
   overflow-y: scroll;
   position: relative;
 }
-title {
-  margin-bottom: 26px;
-}
 .content__details {
   width: 399px;
 }
@@ -94,6 +91,7 @@ title {
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
+  margin-bottom: 26px;
 }
 .content__accent {
   color: #545050;
@@ -143,15 +141,13 @@ title {
   margin-right: 5px;
   cursor: pointer;
 }
-.search-form__pseudo-checkbox:active {
-  position: relative;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
   background-color: white;
+  outline: 1px solid #545050;
+  outline-offset: -1.5px;
 }
-.search-form__pseudo-checkbox:active::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid black;
+.search-form__checkbox {
+  border: 1px solid transparent;
 }
 .search-form__checkbox:has(:focus-visible) {
   border: 1px solid #fff;
