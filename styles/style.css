@@ -85,7 +85,7 @@ title {
 .content__card-link_current {
   background-color: #545050;
 }
-.content__card-link_current:focus {
+.content__card-link_current:focus, .content__card-link:focus {
   border:1px solid white;
 }
 .title {
@@ -108,6 +108,7 @@ title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+  text-overflow:ellipsis;
   margin-bottom: 6px;
 }
 .content__video-card-description {
@@ -197,10 +198,13 @@ title {
 .search-form__checkbox-list > .search-form__label:hover{
   text-decoration: underline;
 }
-.search-form__checkbox-list > .search-form__label:focus {
-  border: 1px solid white;
+.search-form__textfield:focus {
+  outline: none;
 }
-/*Без ".search-form__checkbox-list > " в инпуте будет нижнее подчеркивание при ховере*/
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
 .search-form__checkbox {
   cursor: pointer;
 }
